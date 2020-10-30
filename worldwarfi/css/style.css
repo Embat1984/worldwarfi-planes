@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid red;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-gap: 2%;
+  align-content: space-between;
+}
+.content > div {
+  padding: 1em;
+}
+/* Apply style to plane
+box */
+.plane {
+  border: 1px solid blue;
+}
+.plane h2 {
+  text-align: center;
+}
+.plane span {
+  color: rgba(149, 165, 166, 1);
+}
+
+.attributes {
+  border: 1px solid orange;
+}
+.info {
+  border: 1px solid green;
+}
